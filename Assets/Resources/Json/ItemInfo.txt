@@ -1,0 +1,67 @@
+{
+  "info": [
+    {
+      "id": "1",
+      "name": "Bag Item",
+      "icon": "1",
+      "type": "0",
+      "equipType": "bag",
+      "price": "100",
+      "tips": "背包物品"
+    },
+    {
+      "id": "2",
+      "name": "Head Item",
+      "icon": "2",
+      "type": "1",
+      "equipType": "head",
+      "price": "200",
+      "tips": "头部装备"
+    },
+    {
+      "id": "3",
+      "name": "Neck Item",
+      "icon": "3",
+      "type": "2",
+      "equipType": "neck",
+      "price": "300",
+      "tips": "项链装备"
+    },
+    {
+      "id": "4",
+      "name": "Weapon Item",
+      "icon": "4",
+      "type": "3",
+      "equipType": "weapon",
+      "price": "400",
+      "tips": "武器装备"
+    },
+    {
+      "id": "5",
+      "name": "Cloth Item",
+      "icon": "5",
+      "type": "4",
+      "equipType": "cloth",
+      "price": "500",
+      "tips": "衣服装备"
+    },
+    {
+      "id": "6",
+      "name": "Trousers Item",
+      "icon": "6",
+      "type": "5",
+      "equipType": "trousers",
+      "price": "600",
+      "tips": "裤子装备"
+    },
+    {
+      "id": "7",
+      "name": "Shoes Item",
+      "icon": "7",
+      "type": "6",
+      "equipType": "shoes",
+      "price": "700",
+      "tips": "鞋子装备"
+    }
+  ]
+}

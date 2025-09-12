@@ -1,0 +1,34 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "itemInfo": {
+        "id": 1,
+        "num": 5
+      },
+      "priceType": 0,
+      "price": 123,
+      "tips": "这里是商品1的描述"
+    },
+    {
+      "id": 2,
+      "itemInfo": {
+        "id": 2,
+        "num": 1
+      },
+      "priceType": 1,
+      "price": 456,
+      "tips": "这里是商品2的描述"
+    },
+    {
+      "id": 3,
+      "itemInfo": {
+        "id": 3,
+        "num": 1
+      },
+      "priceType": 0,
+      "price": 666,
+      "tips": "这里是商品3的描述"
+    }
+  ]
+}
