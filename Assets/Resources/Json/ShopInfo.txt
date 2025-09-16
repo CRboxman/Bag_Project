@@ -6,7 +6,7 @@
         "id": 1,
         "num": 5
       },
-      "priceType": 0,
+      "priceType": 2,
       "price": 123,
       "tips": "这里是商品1的描述"
     },

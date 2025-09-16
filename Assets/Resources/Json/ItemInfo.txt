@@ -2,66 +2,84 @@
   "info": [
     {
       "id": "1",
-      "name": "Bag Item",
+      "name": "Iron Boot",
       "icon": "1",
-      "type": "0",
-      "equipType": "bag",
+      "type": "2",
+      "equipType": "6",
       "price": "100",
-      "tips": "±³°üÎïÆ·"
+      "tips": "è„šéƒ¨è£…å¤‡"
     },
     {
       "id": "2",
-      "name": "Head Item",
+      "name": "Belt",
       "icon": "2",
-      "type": "1",
-      "equipType": "head",
+      "type": "2",
+      "equipType": "2",
       "price": "200",
-      "tips": "Í·²¿×°±¸"
+      "tips": "é¡¹åœˆè£…å¤‡"
     },
     {
       "id": "3",
-      "name": "Neck Item",
+      "name": "Helm",
       "icon": "3",
       "type": "2",
-      "equipType": "neck",
+      "equipType": "1",
       "price": "300",
-      "tips": "ÏîÁ´×°±¸"
+      "tips": "å¤´ç›”è£…å¤‡"
     },
     {
       "id": "4",
-      "name": "Weapon Item",
+      "name": "Iron Armor",
       "icon": "4",
-      "type": "3",
-      "equipType": "weapon",
+      "type": "2",
+      "equipType": "4",
       "price": "400",
-      "tips": "ÎäÆ÷×°±¸"
+      "tips": "èƒ¸ç”²è£…å¤‡"
     },
     {
       "id": "5",
-      "name": "Cloth Item",
+      "name": "Gold Nugget ",
       "icon": "5",
-      "type": "4",
-      "equipType": "cloth",
+      "type": "3",
+      "equipType": "5",
       "price": "500",
-      "tips": "ÒÂ·ş×°±¸"
+      "tips": "é‡‘å®çŸ³ç¢ç‰‡"
     },
     {
       "id": "6",
-      "name": "Trousers Item",
+      "name": "Cut Sapphire",
       "icon": "6",
-      "type": "5",
-      "equipType": "trousers",
+      "type": "3",
+      "equipType": "5",
       "price": "600",
-      "tips": "¿ã×Ó×°±¸"
+      "tips": "é—ªäº®å®çŸ³ç¢ç‰‡"
     },
     {
       "id": "7",
-      "name": "Shoes Item",
+      "name": "Book",
       "icon": "7",
-      "type": "6",
-      "equipType": "shoes",
+      "type": "1",
+      "equipType": "5",
       "price": "700",
-      "tips": "Ğ¬×Ó×°±¸"
+      "tips": "ä¹¦ç±"
+    },
+    {
+      "id": "8",
+      "name": "Candle",
+      "icon": "8",
+      "type": "1",
+      "equipType": "5",
+      "price": "800",
+      "tips": "èœ¡çƒ›"
+    },
+    {
+      "id": "9",
+      "name": "Treasure Chest",
+      "icon": "9",
+      "type": "1",
+      "equipType": "5",
+      "price": "900",
+      "tips": "å®ç®±"
     }
   ]
 }

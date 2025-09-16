@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +26,6 @@ public class TipsPanel : BasePanel
         //名字
         GetControl<Text>("txtName").text = itemData.name;
         //描述
-        GetControl<Text>("txtTips").text = itemData.tips;
+        GetControl<TMP_Text>("txtTips").text = itemData.tips+$"({itemData.type})";
     }
 }

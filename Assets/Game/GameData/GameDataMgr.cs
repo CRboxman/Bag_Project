@@ -29,13 +29,13 @@ public class GameDataMgr : BaseManager<GameDataMgr>
         //根据json文件的内容 解析成对应的数据结构 并存储起来
         Items items = JsonUtility.FromJson<Items>(info);
         Debug.Log(items.info.Count);
-        for( int i = 0; i < items.info.Count; ++i )
+        for (int i = 0; i < items.info.Count; ++i)
         {
             itemInfos.Add(items.info[i].id, items.info[i]);
         }
 
         //初始化 角色信息
-        if( File.Exists(PlayerInfo_Url) )
+        if (File.Exists(PlayerInfo_Url))
         {
             //读出指定路径的文件的字节数组
             byte[] bytes = File.ReadAllBytes(PlayerInfo_Url);
@@ -135,17 +135,35 @@ public class Player
 
     public Player()
     {
-        name = "唐老湿";
-        lev = 1;
-        money = 9999;
-        gem = 0;
+        name = "TangTang";
+        lev = 73;
+        money = 1111;
+        gem = 2222;
         pro = 99;
-        items = new List<ItemInfo>() { new ItemInfo() { id = 3, num = 99 } };
-        equips = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1 }, new ItemInfo() { id = 2, num = 1 } };
-        gems = new List<ItemInfo>();
 
+        items = new List<ItemInfo>()
+    {
+        new ItemInfo() { id = 7, num = 1 },
+        new ItemInfo() { id = 8, num = 1 },
+        new ItemInfo() { id = 9, num = 2 }
+    };
+
+        equips = new List<ItemInfo>()
+    {
+        new ItemInfo() { id = 1, num = 1 },
+        new ItemInfo() { id = 2, num = 1 },
+        new ItemInfo() { id = 3, num = 1 },
+        new ItemInfo() { id = 4, num = 1 }
+    };
+
+        gems = new List<ItemInfo>()
+        {
+            new ItemInfo() { id = 5, num = 1200},
+            new ItemInfo() { id = 6, num = 600 }
+        };
         nowEquips = new List<ItemInfo>();
     }
+
 
     /// <summary>
     /// 钱的改变
@@ -180,7 +198,7 @@ public class Player
     public void AddItem(ItemInfo info)
     {
         Item item = GameDataMgr.GetInstance().GetItemInfo(info.id);
-        switch(item.type)
+        switch (item.type)
         {
             //道具
             case (int)E_Bag_Type.Item:

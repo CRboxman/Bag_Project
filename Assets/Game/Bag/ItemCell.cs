@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -150,7 +151,7 @@ public class ItemCell : BasePanel {
         imgIcon.sprite = ResMgr.GetInstance().Load<Sprite>("Icon/"+ itemData.icon);
         //数量
         if( type == E_Item_Type.Bag )
-            GetControl<Text>("txtNum").text = info.num.ToString();
+            GetControl<TMP_Text>("txtNum").text = info.num.ToString();
 
         if (itemData.type == (int)E_Bag_Type.Equip)
             OpenDragEvent();
